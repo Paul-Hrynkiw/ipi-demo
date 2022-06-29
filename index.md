@@ -1,6 +1,7 @@
 ## Genesys Messenger Code
 
 
+  <script type="text/javascript" charset="utf-8">
   (function (g, e, n, es, ys) {
     g['_genesysJs'] = e;
     g[e] = g[e] || function () {
@@ -13,7 +14,7 @@
     environment: 'euw2',
     deploymentId: 'c1346a6f-b0b0-403e-861a-3b9b62f1f896'
   });
-
+</script>
 
 ## Welcome to GitHub Pages
 
