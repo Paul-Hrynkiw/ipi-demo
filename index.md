@@ -1,3 +1,20 @@
+## Genesys Messenger Code
+
+
+  (function (g, e, n, es, ys) {
+    g['_genesysJs'] = e;
+    g[e] = g[e] || function () {
+      (g[e].q = g[e].q || []).push(arguments)
+    };
+    g[e].t = 1 * new Date();
+    g[e].c = es;
+    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+  })(window, 'Genesys', 'https://apps.euw2.pure.cloud/genesys-bootstrap/genesys.min.js', {
+    environment: 'euw2',
+    deploymentId: 'c1346a6f-b0b0-403e-861a-3b9b62f1f896'
+  });
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Paul-Hrynkiw/ipi-demo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
